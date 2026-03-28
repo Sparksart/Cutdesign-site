@@ -22,7 +22,7 @@
     <path d="M180 220 C320 260, 500 120, 710 200 S1140 380, 1390 240"/>
   </g>
   <g>
-    <text x="120" y="730" fill="#white" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="700" letter-spacing="2">CUTDESIGN Lab</text>
-    <text x="126" y="792" fill="#white" font-family="Inter, Arial, sans-serif" font-size="34" letter-spacing="7">RESEARCH • MATERIALS • TOOLS</text>
+    <text x="120" y="730" fill="#f3f5f7" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="700" letter-spacing="2">CUTDESIGN Lab</text>
+    <text x="126" y="792" fill="#dfe5ea" font-family="Inter, Arial, sans-serif" font-size="34" letter-spacing="7">RESEARCH • MATERIALS • TOOLS</text>
   </g>
 </svg>
