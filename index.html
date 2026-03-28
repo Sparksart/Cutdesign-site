@@ -1,84 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CUTDESIGN — research, development, and maker projects across knives, diamonds, and experimental directions.">
   <title>CUTDESIGN</title>
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <script defer src="assets/js/site.js"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
+<body data-page="home">
   <header class="site-header">
     <div class="container header-inner">
-      <a href="index.html" class="brand">
+      <a href="index.html" class="brand" data-nav="home">
         <span class="brand-mark">CD</span>
         <span>CUTDESIGN</span>
       </a>
-
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="siteNav" id="navToggle">Menu</button>
-
       <nav class="site-nav" id="siteNav">
-        <a href="index.html" class="active">Home</a>
-        <a href="knives.html">Knives</a>
-        <a href="diamonds.html">Diamonds</a>
-        <a href="kidney.html">Kidney Project</a>
-        <a href="library.html">Library</a>
-        <a href="about.html">About</a>
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="knives.html" data-nav="knives">Knives</a>
+        <a href="diamonds.html" data-nav="diamonds">Diamonds</a>
+        <a href="kidney.html" data-nav="kidney">Kidney Project</a>
+        <a href="library.html" data-nav="library">Library</a>
+        <a href="about.html" data-nav="about">About</a>
       </nav>
     </div>
   </header>
+  <main class="page">
 
-  <main>
-    <section class="page active">
-      <div class="container">
-        <div class="hero">
-          <div class="hero-grid">
-            <div class="hero-media hero-media-home">
-              <img class="media-img" src="assets/images/home-hero.webp" alt="CUTDESIGN research and development workspace with tools and materials" loading="eager" decoding="async">
-              <div class="hero-overlay-text">
-                <h2>CUTDESIGN Lab</h2>
-                <p>Research • Materials • Tools</p>
-              </div>
-            </div>
-
-            <div class="hero-copy">
-              <div class="eyebrow">R&amp;D / Materials / Tools</div>
-              <h1>Designing matter from experiment to reality.</h1>
-              <p class="lead">CUTDESIGN is the research, development, and maker side of the business — a place where tools, materials, and applied ideas become real projects.</p>
-              <div class="actions">
-                <a class="btn primary" href="library.html">Enter Library</a>
-                <a class="btn" href="about.html">About the Lab</a>
-              </div>
+    <div class="container">
+      <div class="hero">
+        <div class="hero-grid">
+          <div class="hero-media">
+            <img class="media-img" src="assets/images/home-hero.svg" alt="CUTDESIGN research and development workspace with tools and materials" loading="eager" decoding="async">
+          </div>
+          <div class="hero-copy">
+            <div class="eyebrow">R&D / Materials / Tools</div>
+            <h1>Designing matter from experiment to reality.</h1>
+            <p class="lead">CUTDESIGN is the research, development, and maker side of the business — a place where tools, materials, and applied ideas become real projects.</p>
+            <div class="actions">
+              <a class="btn primary" href="library.html">Enter Library</a>
+              <a class="btn" href="about.html">About the Lab</a>
             </div>
           </div>
         </div>
+      </div>
 
-        <section class="section">
-          <div class="section-header">
-            <div>
-              <div class="eyebrow">Projects</div>
-              <h2>Three entry points into the lab.</h2>
-            </div>
-            <p class="muted">Each project starts with curiosity and leads to deeper documentation.</p>
+      <section class="section">
+        <div class="section-header">
+          <div>
+            <div class="eyebrow">Projects</div>
+            <h2>Three entry points into the lab.</h2>
           </div>
+          <p class="muted">Each project starts with curiosity and leads to deeper documentation.</p>
+        </div>
+        <div class="project-grid">
+          <a class="card project-card" href="knives.html" aria-label="Open Knives project page">
+            <img class="media-img" src="assets/images/project-knives.svg" alt="Chef knife prototype displayed in a dramatic studio setting" loading="lazy" decoding="async">
+            <span class="tag accent-knife">Knives</span>
+            <h3>Precision in steel</h3>
+            <p>Blade design, handle development, real-use testing, and product evolution from prototype to final form.</p>
+          </a>
+          <a class="card project-card" href="diamonds.html" aria-label="Open Diamonds project page">
+            <img class="media-img" src="assets/images/project-diamonds.svg" alt="Diamond material and precision work environment" loading="lazy" decoding="async">
+            <span class="tag accent-diamond">Diamonds</span>
+            <h3>Rewriting hardness</h3>
+            <p>Exploring diamond processing tools and new freedom of design for industrial and artistic applications.</p>
+          </a>
+          <a class="card project-card" href="kidney.html" aria-label="Open Kidney Project page">
+            <img class="media-img" src="assets/images/project-kidney.svg" alt="Clean medical research visual representing kidney support system exploration" loading="lazy" decoding="async">
+            <span class="tag accent-kidney">Kidney Project</span>
+            <h3>Engineering life support</h3>
+            <p>A research direction focused on support systems, medical thinking, and responsible exploration of a difficult problem.</p>
+          </a>
+        </div>
+      </section>
 
-          <div class="project-grid">
-            <a class="card project-card" href="knives.html" aria-label="Open Knives project page">
-              <img class="media-img" src="assets/images/project-knives.webp" alt="Chef knife prototype displayed in a dramatic studio setting" loading="lazy" decoding="async">
-              <span class="tag accent-knife">Knives</span>
-              <h3>Precision in steel</h3>
-              <p>Blade design, handle development, real-use testing, and product evolution from prototype to final form.</p>
-            </a>
-
-            <a class="card project-card" href="diamonds.html" aria-label="Open Diamonds project page">
-              <img class="media-img" src="assets/images/project-diamonds.webp" alt="Diamond material and precision work environment" loading="lazy" decoding="async">
-              <span class="tag accent-diamond">Diamonds</span>
-              <h3>Rewriting hardness</h3>
-              <p>Exploring diamond processing tools and new freedom of design for industrial and artistic applications.</p>
-            </a>
-
-            <a class="card project-card" href="kidney.html" aria-label="Open Kidney Project page">
-              <img class="media-img" src="assets/images/project-kidney.webp" alt="Clean medical research visual representing kidney support system exploration" loading="lazy" decoding="async">
-              <span class="tag accent-kidney">Kidney Project</span>
-              <h3>Engineering life support</h3>
+      <section class="section split">
+        <div class="panel">
+          <div class="eyebrow">Site Logic</div>
+          <h2>Surface first, depth on demand.</h2>
+          <p>The home page works as a gateway. Each project page introduces its world without overload. Deeper reading, experiments, videos, and notes live in the Library.</p>
+        </div>
+        <div class="panel">
+          <div class="eyebrow">Bridge</div>
+          <h2>Connected to sparks.art</h2>
+          <p>CUTDESIGN presents the development side. Later, sparks.art can present the showroom and sales layer, while both sites support the same identity and story.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">CUTDESIGN structure build — ready for GitHub Pages testing and content insertion.</div>
+  </footer>
+  <script src="assets/js/site.js"></script>
+</body>
 </html>
