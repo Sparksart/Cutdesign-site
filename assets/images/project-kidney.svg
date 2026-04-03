@@ -1,28 +1,141 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Kidney Project">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#171c22"/>
-      <stop offset="55%" stop-color="#10141a"/>
-      <stop offset="100%" stop-color="#0b0d10"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1600"
+   height="1000"
+   viewBox="0 0 1600 1000"
+   role="img"
+   aria-label="Kidney Project"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="project-kidney.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.133"
+     inkscape:cx="800.08826"
+     inkscape:cy="500"
+     inkscape:window-width="2560"
+     inkscape:window-height="1351"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11" />
+  <defs
+     id="defs7">
+    <linearGradient
+       id="bg"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="1">
+      <stop
+         offset="0%"
+         stop-color="#171c22"
+         id="stop1" />
+      <stop
+         offset="55%"
+         stop-color="#10141a"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#0b0d10"
+         id="stop3" />
     </linearGradient>
-    <radialGradient id="glow1" cx="30%" cy="28%" r="28%">
-      <stop offset="0%" stop-color="#4a7ea8" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#4a7ea8" stop-opacity="0"/>
+    <radialGradient
+       id="glow1"
+       cx="30%"
+       cy="28%"
+       r="28%">
+      <stop
+         offset="0"
+         stop-color="#4a7ea8"
+         stop-opacity="0.45"
+         id="stop4"
+         style="stop-color:#4a7ea8;stop-opacity:0.55000001;" />
+      <stop
+         offset="100%"
+         stop-color="#4a7ea8"
+         stop-opacity="0"
+         id="stop5" />
     </radialGradient>
-    <radialGradient id="glow2" cx="76%" cy="24%" r="20%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <radialGradient
+       id="glow2"
+       cx="76%"
+       cy="24%"
+       r="20%">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="0.14"
+         id="stop6"
+         style="stop-color:#ffffff;stop-opacity:0.44999999;" />
+      <stop
+         offset="100%"
+         stop-color="#ffffff"
+         stop-opacity="0"
+         id="stop7" />
     </radialGradient>
   </defs>
-  <rect width="1600" height="1000" fill="url(#bg)"/>
-  <rect width="1600" height="1000" fill="url(#glow1)"/>
-  <rect width="1600" height="1000" fill="url(#glow2)"/>
-  <g opacity="0.22" stroke="#ffffff" stroke-width="2" fill="none">
-    <path d="M120 760 C380 660, 540 860, 830 700 S1300 420, 1500 560"/>
-    <path d="M180 220 C320 260, 500 120, 710 200 S1140 380, 1390 240"/>
+  <rect
+     width="1600"
+     height="1000"
+     fill="url(#bg)"
+     id="rect7" />
+  <rect
+     width="1600"
+     height="1000"
+     fill="url(#glow1)"
+     id="rect8"
+     x="0"
+     y="0"
+     style="display:inline" />
+  <rect
+     width="1600"
+     height="1000"
+     fill="url(#glow2)"
+     id="rect9" />
+  <g
+     opacity="0.22"
+     stroke="#ffffff"
+     stroke-width="2"
+     fill="none"
+     id="g10">
+    <path
+       d="M120 760 C380 660, 540 860, 830 700 S1300 420, 1500 560"
+       id="path9" />
+    <path
+       d="M180 220 C320 260, 500 120, 710 200 S1140 380, 1390 240"
+       id="path10" />
   </g>
-  <g>
-    <text x="120" y="730" fill="#f3f5f7" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="700" letter-spacing="2">Kidney Project</text>
-    <text x="126" y="792" fill="#dfe5ea" font-family="Inter, Arial, sans-serif" font-size="34" letter-spacing="7">ENGINEERING LIFE SUPPORT</text>
+  <g
+     id="g11">
+    <text
+       x="120"
+       y="730"
+       fill="#f3f5f7"
+       font-family="Inter, Arial, sans-serif"
+       font-size="92"
+       font-weight="700"
+       letter-spacing="2"
+       id="text10">Kidney Project</text>
+    <text
+       x="126"
+       y="792"
+       fill="#dfe5ea"
+       font-family="Inter, Arial, sans-serif"
+       font-size="34"
+       letter-spacing="7"
+       id="text11">ENGINEERING LIFE SUPPORT</text>
   </g>
 </svg>
