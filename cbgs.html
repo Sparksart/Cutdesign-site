@@ -5,8 +5,8 @@
   <script>
     (function () {
       try {
-        if (localStorage.getItem('cutdesign-theme') === 'light') {
-          document.documentElement.setAttribute('data-theme', 'light');
+        if (localStorage.getItem('cutdesign-theme') === 'dark') {
+          document.documentElement.setAttribute('data-theme', 'dark');
         }
       } catch (e) {}
     })();
@@ -36,10 +36,10 @@
           <a href="about.html" data-nav="about">About</a>
         </nav>
         <div class="theme-toggle" id="themeToggle" role="group" aria-label="Theme">
-          <button class="theme-option" type="button" data-theme-choice="dark" aria-pressed="true" aria-label="Dark theme">
+          <button class="theme-option" type="button" data-theme-choice="dark" aria-pressed="false" aria-label="Dark theme">
             <span aria-hidden="true">&#9789;</span>
           </button>
-          <button class="theme-option" type="button" data-theme-choice="light" aria-pressed="false" aria-label="Light theme">
+          <button class="theme-option" type="button" data-theme-choice="light" aria-pressed="true" aria-label="Light theme">
             <span aria-hidden="true">&#9728;</span>
           </button>
         </div>
@@ -58,9 +58,9 @@
             <img class="media-img" src="assets/images/cbgs-hero.svg" alt="CBGS blade geometry shaper hero image" loading="eager" decoding="async">
           </div>
           <div class="hero-copy">
-            <div class="eyebrow">CBGS — Blade Geometry Shaper</div>
-            <h1>A simple, 3D-printable sharpener that upgrades how blades are sharpened.</h1>
-            <p class="lead">CBGS (Cutdesign Blade Geometry Shaper) rethinks the sharpening jig itself — printable in-house, and built to improve both the approach to sharpening and the result on the blade.</p>
+            <div class="eyebrow">CBGS Project</div>
+            <h1>A better jig for sharpening blades.</h1>
+            <p class="lead">CBGS (Cutdesign Blade Geometry Shaper) is a 3D-printable jig built to improve sharpening itself.</p>
             <div class="actions">
               <a class="btn primary" href="library.html">View Library</a>
               <a class="btn" href="about.html">About CUTDESIGN</a>

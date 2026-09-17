@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const applyTheme = (theme) => {
-    if (theme === 'light') {
-      document.documentElement.setAttribute('data-theme', 'light');
+    if (theme === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
     } else {
       document.documentElement.removeAttribute('data-theme');
     }
@@ -45,11 +45,12 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // Sync button state with whatever the inline head script already set.
-  applyTheme(document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark');
+  // Light is the default appearance; dark is the opt-in choice.
+  applyTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light');
 
   themeOptions.forEach((btn) => {
     btn.addEventListener('click', () => {
-      const choice = btn.dataset.themeChoice === 'light' ? 'light' : 'dark';
+      const choice = btn.dataset.themeChoice === 'dark' ? 'dark' : 'light';
       applyTheme(choice);
       storeTheme(choice);
     });
