@@ -11,6 +11,7 @@
   --accent-knife: #8a3d34;
   --accent-diamond: #d6b56d;
   --accent-kidney: #4a7ea8;
+  --accent-cbgs: #3f8f7a;
   --max: 1240px;
   --radius: 22px;
   --shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
@@ -54,6 +55,7 @@
   --accent-knife: #8a3d34;
   --accent-diamond: #a97c2f;
   --accent-kidney: #2f6690;
+  --accent-cbgs: #2f7d68;
   --shadow: 0 14px 40px rgba(30, 24, 10, 0.10);
 
   --bg-grad-radial: rgba(169,124,47,.08);
@@ -491,6 +493,7 @@ p.lead {
 .accent-knife { color: #d59188; }
 .accent-diamond { color: #e5cb8e; }
 .accent-kidney { color: #8bb8da; }
+.accent-cbgs { color: #86d3b8; }
 
 @media (min-width: 760px) {
   .nav-toggle { display: none; }
