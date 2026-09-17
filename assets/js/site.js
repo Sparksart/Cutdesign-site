@@ -22,11 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (link.dataset.nav === currentPage) link.classList.add('active');
   });
 
-  // Theme toggle (light / dark). The initial theme is already applied by an
-  // inline script in <head> (before first paint) to avoid a flash of the
-  // wrong theme; this just wires up the button and keeps it in sync.
+  // Theme picker (light / dark, both options always visible). The initial
+  // theme is already applied by an inline script in <head> (before first
+  // paint) to avoid a flash of the wrong theme; this just wires up the two
+  // buttons and keeps them in sync.
   const THEME_KEY = 'cutdesign-theme';
-  const themeToggle = document.getElementById('themeToggle');
+  const themeOptions = document.querySelectorAll('.theme-option');
 
   const storeTheme = (value) => {
     try { localStorage.setItem(THEME_KEY, value); } catch (e) {}
@@ -38,21 +39,19 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       document.documentElement.removeAttribute('data-theme');
     }
-    if (themeToggle) {
-      const isLight = theme === 'light';
-      themeToggle.setAttribute('aria-pressed', String(isLight));
-      themeToggle.setAttribute('aria-label', isLight ? 'Switch to dark theme' : 'Switch to light theme');
-    }
+    themeOptions.forEach((btn) => {
+      btn.setAttribute('aria-pressed', String(btn.dataset.themeChoice === theme));
+    });
   };
 
   // Sync button state with whatever the inline head script already set.
   applyTheme(document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark');
 
-  if (themeToggle) {
-    themeToggle.addEventListener('click', () => {
-      const next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-      applyTheme(next);
-      storeTheme(next);
+  themeOptions.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const choice = btn.dataset.themeChoice === 'light' ? 'light' : 'dark';
+      applyTheme(choice);
+      storeTheme(choice);
     });
-  }
+  });
 });
