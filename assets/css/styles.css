@@ -1,5 +1,5 @@
 :root {
-  --bg: #f7f4ee;
+  --bg: #ffffff;
   --panel: #ffffff;
   --panel-2: #f2eee5;
   --text: #16181c;
@@ -16,9 +16,9 @@
   --radius: 22px;
   --shadow: 0 14px 40px rgba(30, 24, 10, 0.10);
 
-  --bg-grad-radial: rgba(169,124,47,.08);
-  --bg-grad-top: #faf8f3;
-  --bg-grad-bottom: #f1ede3;
+  --bg-grad-radial: rgba(169,124,47,0);
+  --bg-grad-top: #ffffff;
+  --bg-grad-bottom: #ffffff;
   --header-bg: rgba(255, 255, 255, 0.78);
   --media-bg: #ece7db;
   --media-overlay-1: rgba(0,0,0,.02);
