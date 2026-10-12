@@ -408,12 +408,12 @@ p.lead {
 .project-card .tag {
   display: inline-flex;
   width: fit-content;
-  margin-bottom: 10px;
-  font-size: .78rem;
+  margin-bottom: 12px;
+  font-size: 1.15rem;
   font-weight: 700;
-  letter-spacing: .1em;
+  letter-spacing: .08em;
   text-transform: uppercase;
-  padding: 8px 10px;
+  padding: 9px 16px;
   border-radius: 999px;
   background: rgba(255,255,255,.1);
   backdrop-filter: blur(6px);
@@ -523,6 +523,7 @@ p.lead {
   .project-grid,
   .card-grid,
   .library-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .project-card .tag { font-size: .95rem; padding: 8px 14px; }
   .split { grid-template-columns: 1.1fr .9fr; }
 }
 
